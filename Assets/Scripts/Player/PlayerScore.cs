@@ -29,5 +29,9 @@ public class PlayerScore : MonoBehaviour
         {
             scoreText.text = "Score: " + currentScore;
         }
+        else
+        {
+            Debug.Log("Score UI not found!");
+        }
     }
 }

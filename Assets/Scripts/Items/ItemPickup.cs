@@ -10,7 +10,7 @@ public class ItemPickup : MonoBehaviour
         {
             PlayerScore.instance.AddScore(item.scoreValue); 
             Destroy(gameObject);
-            Debug.Log($"Item {item.itemName} picked up")
+            Debug.Log($"Item {item.itemName} picked up");
         }
     }
 }
