@@ -65,6 +65,6 @@ public class EnemyMovement : MonoBehaviour
 
     private void SetVelocity()
     {
-        _rigidbody.velocity = transform.up * _speed;
+        _rigidbody.linearVelocity = transform.up * _speed;
     }
 }
