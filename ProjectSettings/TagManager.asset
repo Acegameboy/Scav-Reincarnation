@@ -44,14 +44,17 @@ TagManager:
   - name: Background
     uniqueID: 503125023
     locked: 0
+  - name: Item
+    uniqueID: 3102254071
+    locked: 0
+  - name: Bullet
+    uniqueID: 574634237
+    locked: 0
   - name: Player
     uniqueID: 2990140901
     locked: 0
   - name: Enemy
     uniqueID: 2479346579
-    locked: 0
-  - name: Bullet
-    uniqueID: 574634237
     locked: 0
   m_RenderingLayers:
   - Default

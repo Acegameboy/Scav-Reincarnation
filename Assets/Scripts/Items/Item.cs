@@ -1,8 +1,22 @@
 using UnityEngine;
 
-[System.Serializable]
-public class Item
+public class Item : MonoBehaviour
 {
-    public string itemName; 
-    public int scoreValue; 
+    private ItemBehaviour itemBehaviour;
+
+    private void Awake()
+    {
+        itemBehaviour = GetComponent<ItemBehaviour>();
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        var player = collision.GetComponent<PlayerMovement>();
+
+        if (player != null)
+        {
+            itemBehaviour.OnCollected(player.gameObject);
+            Destroy(gameObject);
+        }
+    }
 }
