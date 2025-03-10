@@ -15,9 +15,11 @@ public class EnemyDropItem : MonoBehaviour
     public void RandomlyDropCollectable()
     {
         float random = Random.Range(0f, 1f);
+        Debug.Log($"Random drop chance: {random} vs Drop Threshold: {_chanceOfCollectableDrop}");
 
         if (_chanceOfCollectableDrop >= random)
         {
+            Debug.Log("Item should drop!");
             _collectableSpawner.SpawnCollectable(transform.position);
         }
     }

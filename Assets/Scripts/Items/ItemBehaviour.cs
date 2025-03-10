@@ -1,9 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 
 
-public interface ItemBehaviour
+public abstract class ItemBehaviour : MonoBehaviour
 {
-    void OnCollected(GameObject player);
+    public abstract void OnCollected(GameObject player);
 }

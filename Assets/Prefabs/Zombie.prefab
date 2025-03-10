@@ -167,6 +167,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _speed: 2
   _rotationSpeed: 720
+  _screenBorder: 0
+  _obstacleCheckCircleRadius: 0
+  _obstacleCheckDistance: 0
+  _obstacleLayerMask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &8807238290580900276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -276,4 +282,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a973dc07134a5b744a89a9a2b5c0bf19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _chanceOfCollectableDrop: 0.3
+  _chanceOfCollectableDrop: 100

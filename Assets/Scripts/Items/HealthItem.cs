@@ -1,11 +1,11 @@
 using UnityEngine;
 
-public class HealthItem : MonoBehaviour
+public class HealthItem : ItemBehaviour
 {
     [SerializeField]
     private float healAmount;
 
-    public void OnColloect(GameObject player)
+    public override void OnCollected(GameObject player)
     {
         player.GetComponent<HealthController>().AddHealth(healAmount);
     }
