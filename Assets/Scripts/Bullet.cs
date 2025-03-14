@@ -2,13 +2,28 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
+    public float damage = 75f; 
+
+    private void Start()
+    {
+        Destroy(gameObject, 5f);
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.GetComponent<EnemyMovement>())
+        // Check if the collided object has a HealthController
+        HealthController health = collision.GetComponent<HealthController>();
+
+        if (health != null)
         {
-            Destroy(collision.gameObject);
-            Destroy(gameObject);
+            health.TakeDamage(damage);
+
+            if (health.RemainingHealthPercentage <= 0)
+            {
+                Destroy(collision.gameObject);
+            }
         }
+
+        Destroy(gameObject);
     }
 }
-
