@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class PlayerShoot : MonoBehaviour
@@ -40,20 +40,13 @@ public class PlayerShoot : MonoBehaviour
         rigidbody.linearVelocity = _bulletSpeed * transform.up; // Fixed velocity assignment
     }
 
-    private void OnAttack(InputValue inputValue)
+    public void StartShooting()
     {
-        if (inputValue.isPressed)
-        {
-            if (Time.time - _lastFireTime >= _timeBetweenShots) // Enforce fire rate on first shot
-            {
-                FireBullet();
-                _lastFireTime = Time.time;
-            }
-            _fireContinuously = true;
-        }
-        else
-        {
-            _fireContinuously = false;
-        }
+        _fireContinuously = true;
+    }
+
+    public void StopShooting()
+    {
+        _fireContinuously = false;
     }
 }
