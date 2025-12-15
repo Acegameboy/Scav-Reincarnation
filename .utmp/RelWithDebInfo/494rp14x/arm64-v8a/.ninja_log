@@ -1,0 +1,12 @@
+# ninja log v5
+122	2024	7871197906045448	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	fee06ffe7751a3e
+2041	3746	7871197921293902	C:/Users/User/Documents/GitHub/Scav-Reincarnation/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/494rp14x/obj/arm64-v8a/libswappywrapper.so	b595fdb94ff767d4
+90	9882	7871197981638681	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	2264917a45e5d70
+2	10138	7871197986325324	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	173657975204399c
+98	10476	7871197988412499	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	f2b9fe422616b896
+63	10802	7871197993532583	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	4e1b0b4810ea437f
+110	10961	7871197994922143	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	9e0f5343360d2300
+40	11218	7871197997724353	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	da5dface73bb49a
+76	11965	7871198005303884	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	cd4f108c66ba791b
+51	12464	7871198010498524	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	df2b7485fac19ee7
+12466	12843	7871198013944657	C:/Users/User/Documents/GitHub/Scav-Reincarnation/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/494rp14x/obj/arm64-v8a/libgame.so	f96ae6724d771aa9
