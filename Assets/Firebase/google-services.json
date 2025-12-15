@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "333613622826",
+    "project_id": "scavrecarnation",
+    "storage_bucket": "scavrecarnation.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333613622826:android:465de622eecb3646420553",
+        "android_client_info": {
+          "package_name": "com.google.firebase.scav"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCi77nJZRWVvtOIAOxH6d9iGeE20I_Ykqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
