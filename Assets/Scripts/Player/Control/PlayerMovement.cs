@@ -32,6 +32,11 @@ public class PlayerMovement : MonoBehaviour
     private bool _moveLeft;
     private bool _moveRight;
 
+    public void SetSpeed(float newSpeed)
+    {
+        _speed = newSpeed;
+    }
+
     private void Awake()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
